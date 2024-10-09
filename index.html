@@ -1,105 +1,116 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-	<meta charset="UTF-8" />
-	<title>Juce Duarte - Web Design</title>
-	<link rel="stylesheet" href="css/normalize.css" />
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css' />
-	<link rel="stylesheet" href="css/estilo.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolo de Pote Delícias</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #ffcc00;
+            color: #333;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 3px solid #e6b800;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .gallery img {
+            width: calc(33% - 10px);
+            margin: 5px;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-	<div class="header">
-		<div class="linha">
-			<header>
-				<div class="coluna col4">
-					<h1 class="logo">Juce Duarte</h1>
-				</div>
-				<div class="coluna col8">
-					<nav>
-						<ul class="menu inline sem-marcador">
-							<li><a href="index.html">home</a></li>
-							<li><a href="clientes.html">clientes</a></li>
-							<li><a href="servicos.html">serviços</a></li>
-							<li><a href="sobre.html">sobre</a></li>
-							<li><a href="contato.html">contato</a></li>
-						</ul>
-					</nav>
-				</div>
-			</header>
-		</div>
-	</div>
-	<div class="linha">
-		<section>
-			<div class="coluna col3 sidebar">
-				<h3>Clientes satisfeitos</h3>
-				<ul class="sem-marcador sem-padding">
-					<li><a href="">Nome da Empresa 1</a></li>
-					<li><a href="">Nome da Empresa 2</a></li>
-					<li><a href="">Nome da Empresa 3</a></li>
-					<li><a href="">Nome da Empresa 4</a></li>
-					<li><a href="">Nome da Empresa 5</a></li>
-					<li><a href="">Nome da Empresa 6</a></li>
-					<li><a href="">Nome da Empresa 7</a></li>
-				</ul>
-				<a href="cliente.html" class="botao">Ver todos &raquo;</a>
-			</div>
-			<div class="coluna col9">
-				<h2>Último trabalho: <em>Empresa ABC</em></h2>
-				<img src="img/thumb-grande.jpg" alt="" />
-				<p>Podemos acreditar que tudo que a vida nos oferecerá no futuro é repetir 
-				o que fizemos ontem e hoje. Mas, se prestarmos atenção, vamos nos dar conta de 
-				que nenhum dia é igual a outro. Cada manhã traz uma benção escondida; uma benção 
-				que só serve para esse dia e que não se pode guardar nem desaproveitar.</p>
-				<a href="clientes.html" class="botao">Ver outros trabalhos &raquo; </a>
-			</div>
-		</section>
-	</div>
-	<div class="conteudo-extra">
-		<div class="linha">
-			<div class="coluna col7">
-				<section>
-					<h2>Como um site pode ajudar sua empresa?</h2>
-					<p>Podemos acreditar que tudo que a vida nos oferecerá no futuro é repetir 
-					o que fizemos ontem e hoje. Mas, se prestarmos atenção, vamos nos dar conta de </p>
-					<p>Podemos acreditar que tudo que a vida nos oferecerá no futuro é repetir 
-					o que fizemos ontem e hoje. Mas, se prestarmos atenção, vamos nos dar conta de </p>
-					<p>Podemos acreditar que tudo que a vida nos oferecerá no futuro é repetir 
-					o que fizemos ontem e hoje. Mas, se prestarmos atenção, vamos nos dar conta de </p>
-				</section>
-			</div>
-			<div class="coluna col5">
-				<h3>Últimas Notícias</h3>
-				<ul class="sem-marcador sem-padding noticias">
-					<li>
-						<img src="img/thumb-pequena.jpg" alt="" />
-						<h4>Título da notícia publicada no blog</h4>
-						<p>Podemos acreditar que tudo que a vida nos oferecerá no futuro é repetir 
-					o que fizemos ontem e hoje. <a href="">Leia mais &raquo;</a></p>
-					</li>
-					<li>
-						<img src="img/thumb-pequena.jpg" alt="" />
-						<h4>Título da notícia publicada no blog</h4>
-						<p>Podemos acreditar que tudo que a vida nos oferecerá no futuro é repetir 
-					o que fizemos ontem e hoje. <a href="">Leia mais &raquo;</a></p>
-					</li>
-					<li>
-						<img src="img/thumb-pequena.jpg" alt="" />
-						<h4>Título da notícia publicada no blog</h4>
-						<p>Podemos acreditar que tudo que a vida nos oferecerá no futuro é repetir 
-					o que fizemos ontem e hoje. <a href="">Leia mais &raquo;</a></p>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="footer">
-		<div class="linha">
-			<footer>
-				<div class="coluna col12">
-					<span>&copy; 2021 - Juce Duarte Web Design</span>
-				</div>
-			</footer>
-		</div>
-	</div>
+
+<header>
+    <h1>Bolo de Pote Delícias</h1>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#sabores">Sabores</a>
+        <a href="#receita">Receita</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Bem-vindo ao Bolo de Pote Delícias! Somos apaixonados por criar bolos de pote irresistíveis e cheios de sabor. Cada pote é feito com ingredientes frescos e muito amor!</p>
+</section>
+
+<section id="sabores">
+    <h2>Nossos Sabores</h2>
+    <ul>
+        <li>Bolo de Chocolate com Nutella</li>
+        <li>Bolo de Baunilha com Frutas Vermelhas</li>
+        <li>Bolo de Limão Siciliano</li>
+        <li>Bolo Red Velvet com Cream Cheese</li>
+    </ul>
+
+    <div class="gallery">
+        <h3>Galeria de Bolos:</h3>
+        <img src="https://via.placeholder.com/200" alt="Bolo de Chocolate">
+        <img src="https://via.placeholder.com/200" alt="Bolo de Baunilha">
+        <img src="https://via.placeholder.com/200" alt="Bolo Red Velvet">
+    </div>
+</section>
+
+<section id="receita">
+    <h2>Receita do Bolo de Chocolate com Nutella</h2>
+    <p>Ingredientes:</p>
+    <ul>
+        <li>1 xícara de farinha de trigo</li>
+        <li>1 xícara de açúcar</li>
+        <li>1/2 xícara de chocolate em pó</li>
+        <li>1/2 xícara de óleo</li>
+        <li>3 ovos</li>
+        <li>1/2 xícara de leite</li>
+        <li>Nutella a gosto para rechear</li>
+    </ul>
+
+    <p>Modo de Preparo:</p>
+    <ol>
+        <li>Preaqueça o forno a 180°C.</li>
+        <li>Misture todos os ingredientes até obter uma massa homogênea.</li>
+        <li>Coloque em uma forma untada e leve ao forno por cerca de 30 minutos.</li>
+        <li>Deixe esfriar, monte em potes alternando camadas da massa com Nutella.</li>
+    </ol>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>Email: contato@bolodepotedelicias.com.br</p>
+    <p>Telefone: (11) 98765-4321</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Bolo de Pote Delícias. Todos os direitos reservados.</p>
+</footer>
+
 </body>
 </html>
